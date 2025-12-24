@@ -16,21 +16,7 @@ Unlike standard irrigation systems that use fixed timers, this system utilizes a
 * **🌐 Real-Time Telemetry:** Features a responsive, asynchronous (AJAX) web dashboard hosted directly on the ESP32.
 * **☀️ Circadian Lighting:** Syncs with NTP (Internet Time) to provide grow lights during the day but ensure darkness at night.
 
-## 📂 Repository Structure
-```text
-ESP32-EdgeAI-Garden-Monitor/
-├── src/
-│   └── SmartGarden_Final.ino      # Main C++ Firmware for ESP32
-├── data/
-│   └── training_data.csv          # Dataset used to train the ML model
-├── scripts/
-│   └── train_model.py             # Python script used to extract ML rules
-├── diagrams/
-│   ├── circuit_diagram.png        # Wiring connections
-│   ├── ml_decision_tree.png       # Visual representation of AI logic
-│   ├── web_dashboard.png          # UI Screenshot
-│   └── hardware_setup.jpg         # Photo of the physical device
-└── README.md                      # Project Documentation
+
 🛠️ Tech Stack
 Microcontroller: ESP32 DOIT DEVKIT V1
 
